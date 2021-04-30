@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+  width: 80%;
+  margin: 10px auto;
+}
+.image-list{
+  display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.img-preview{
+  margin: 10px;
+}
+.img{
+  height: 300px;
+  width: 300px;
+  border-radius: 5px;
+}
